@@ -37,3 +37,6 @@
 [submodule "/home/edd/.vim/pack/edd/start/vim-gitgutter"]
 	path = .vim/pack/edd/start/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "/home/edd/.vim/pack/edd/start/vim-fugitive"]
+	path = /home/edd/.vim/pack/edd/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
