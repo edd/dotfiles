@@ -1,39 +1,3 @@
-[submodule "/home/edd/.vim/pack/edd/start/fzf"]
-	path = /home/edd/.vim/pack/edd/start/fzf
-	url = git@github.com:junegunn/fzf.git
-[submodule "/home/edd/.vim/pack/edd/start/fzf.vim"]
-	path = /home/edd/.vim/pack/edd/start/fzf.vim
-	url = git@github.com:junegunn/fzf.vim.git
-[submodule "/home/edd/.vim/pack/edd/start/nerdtree"]
-	path = /home/edd/.vim/pack/edd/start/nerdtree
-	url = git@github.com:junegunn/nerdtree.git
-[submodule "/home/edd/.vim/pack/edd/start/tsuquyomi"]
-	path = /home/edd/.vim/pack/edd/start/tsuquyomi
-	url = git@github.com:Quaramy/tsuquyomi.git
-[submodule "/home/edd/.vim/pack/edd/start/typescript-vim"]
-	path = /home/edd/.vim/pack/edd/start/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim.git
-[submodule "/home/edd/.vim/pack/edd/start/unite-outline"]
-	path = /home/edd/.vim/pack/edd/start/unite-outline
-	url = git@github.com:Shuogo/unite-outline.git
-[submodule "/home/edd/.vim/pack/edd/start/unite.vim"]
-	path = /home/edd/.vim/pack/edd/start/unite.vim
-	url = git@github.com:Shuogo/unite.vim.git
-[submodule "/home/edd/.vim/pack/edd/start/vim-bufferline"]
-	path = /home/edd/.vim/pack/edd/start/vim-bufferline
-	url = git@github.com:bling/vim-bufferline.git
-[submodule "/home/edd/.vim/pack/edd/start/vim-peekaboo"]
-	path = /home/edd/.vim/pack/edd/start/vim-peekaboo
-	url = git@github.com:junegunn/vim-peekaboo.git
-[submodule "/home/edd/.vim/pack/edd/start/vim-tmux-navigator"]
-	path = /home/edd/.vim/pack/edd/start/vim-tmux-navigator
-	url = git@github.com:christoomey/vim-tmux-navigator.git
-[submodule "/home/edd/.vim/pack/edd/start/vim-tsx"]
-	path = /home/edd/.vim/pack/edd/start/vim-tsx
-	url = git@github.com:ianks/vim-tsx.git
-[submodule "/home/edd/.vim/pack/edd/start/vimproc.vim"]
-	path = /home/edd/.vim/pack/edd/start/vimproc.vim
-	url = git@github.com:Shuogo/vimproc.git
 [submodule ".vim/pack/edd/start/vimproc.vim"]
 	path = .vim/pack/edd/start/vimproc.vim
 	url = git@github.com:Shuogo/vimproc.git
