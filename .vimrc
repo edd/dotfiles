@@ -34,6 +34,7 @@ let g:netrw_scp_cmd='scp -s'
 " since it requires umask too
 let g:netrw_localmkdir=''
 
+packadd! dracula_pro
 let g:dracula_colorterm = 0
 colorscheme dracula_pro
 let mapleader = "\<Space>"
