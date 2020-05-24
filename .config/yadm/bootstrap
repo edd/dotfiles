@@ -4,7 +4,6 @@
 # be run from within $HOME (assuming this is the root of your dotfiles)
 cd "$HOME"
 
-
 system_type=$(uname -s)
 
 if [ "$system_type" = "Darwin" ]; then
@@ -20,8 +19,7 @@ if [ "$system_type" = "Darwin" ]; then
 fi
 
 if [ "$system_type" = "Linux" ]; then
-  is_ish=$(uname -v)
-  if [[ "${is_ish:0:3}" = iSH ]]; then
+  if command -v apk >/dev/null 2>&1; then
     echo "s iSH"
     apk update && apk upgrade
   fi
