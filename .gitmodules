@@ -39,7 +39,10 @@
 	url = git@github.com:airblade/vim-gitgutter.git
 [submodule ".vim/pack/edd/start/vim-tsx"]
 	path = .vim/pack/edd/start/vim-tsx
-	url = git@github.com:leafgarland/vim-tsx.git
+	url = git@github.com:ianks/vim-tsx.git
 [submodule ".vim/pack/edd/start/vim-fugitive"]
 	path = .vim/pack/edd/start/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
+[submodule ".vim/pack/edd/start/vim-prettier"]
+	path = .vim/pack/edd/start/vim-prettier
+	url = git@github.com:prettier/vim-prettier.git
