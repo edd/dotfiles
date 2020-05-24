@@ -63,6 +63,7 @@ map <F2> :NERDTreeToggle<CR>
 map <Leader>t :NERDTreeToggle<CR>
 map <Leader><tab> :Buffer<CR>
 map <Leader>p :GFiles<CR>
+map <Leader>f :PrettierAsync<CR>
 
 "Style
 au BufNewFile,BufRead *.jsx let b:syntastic_checkers = ['jsxhint']
