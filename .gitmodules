@@ -43,6 +43,3 @@
 [submodule ".vim/pack/edd/start/vim-fugitive"]
 	path = .vim/pack/edd/start/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive.git
-[submodule ".vim/pack/edd/start/vim-fugitive.git"]
-	path = .vim/pack/edd/start/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
