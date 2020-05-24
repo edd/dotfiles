@@ -21,15 +21,16 @@ fi
 
 if [ "$system_type" = "Linux" ]; then
   is_ish=$(uname -v)
-  if [ "$is_ish" == *"iSH"* ]; then
-    echo "iSH"
+  if [[ "${is_ish:0:3}" = iSH ]]; then
+    echo "s iSH"
+    apk update && apk upgrade
   fi
   if command -v apt >/dev/null 2>&1; then
     echo "Ubuntu"
   fi
 fi
 
-echo "Init submodules"
-if ! command -v yadm >/dev/null 2>&1; then
+if command -v yadm >/dev/null 2>&1; then
+  echo "Init submodules"
   yadm submodule update --recursive --init
 fi
