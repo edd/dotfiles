@@ -1,6 +1,3 @@
-[submodule ".vim/pack/edd/start/vimproc.vim"]
-	path = .vim/pack/edd/start/vimproc.vim
-	url = git@github.com:Shuogo/vimproc.git
 [submodule ".vim/pack/edd/start/fzf"]
 	path = .vim/pack/edd/start/fzf
 	url = git@github.com:junegunn/fzf.git
@@ -10,15 +7,6 @@
 [submodule ".vim/pack/edd/start/nerdtree"]
 	path = .vim/pack/edd/start/nerdtree
 	url = git@github.com:preservim/nerdtree.git
-[submodule ".vim/pack/edd/start/tsuquyomi"]
-	path = .vim/pack/edd/start/tsuquyomi
-	url = git@github.com:Quramy/tsuquyomi.git
-[submodule ".vim/pack/edd/start/unite-outline"]
-	path = .vim/pack/edd/start/unite-outline
-	url = git@github.com:Shuogo/unite-outline.git
-[submodule ".vim/pack/edd/start/unite.vim"]
-	path = .vim/pack/edd/start/unite.vim
-	url = git@github.com:Shuogo/unite.vim.git
 [submodule ".vim/pack/edd/start/vim-bufferline"]
 	path = .vim/pack/edd/start/vim-bufferline
 	url = git@github.com:bling/vim-bufferline.git
@@ -28,9 +16,6 @@
 [submodule ".vim/pack/edd/start/vim-tmux-navigator"]
 	path = .vim/pack/edd/start/vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator.git
-[submodule ".vim/pack/edd/start/typescript-vim"]
-	path = .vim/pack/edd/start/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim.git
 [submodule ".vim/pack/themes/start/dracula_pro"]
 	path = .vim/pack/themes/start/dracula_pro
 	url = git@github.com:edd/dracula-pro.git
