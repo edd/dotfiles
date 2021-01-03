@@ -31,3 +31,21 @@
 [submodule ".vim/pack/edd/start/vim-prettier"]
 	path = .vim/pack/edd/start/vim-prettier
 	url = git@github.com:prettier/vim-prettier.git
+[submodule ".vim/pack/edd/start/yats.vim"]
+	path = .vim/pack/edd/start/yats.vim
+	url = git@github.com:HerringtonDarkholme/yats.vim.git
+[submodule ".vim/pack/edd/start/vim-jsx-pretty"]
+	path = .vim/pack/edd/start/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
+[submodule ".vim/pack/edd/start/coc.vim"]
+	path = .vim/pack/edd/start/coc.vim
+	url = git@github.com:neoclide/coc.nvim.git
+[submodule ".vim/pack/edd/start/vimux"]
+	path = .vim/pack/edd/start/vimux
+	url = git@github.com:benmills/vimux.git
+[submodule ".vim/pack/edd/start/vim-sneak"]
+	path = .vim/pack/edd/start/vim-sneak
+	url = git@github.com:justinmk/vim-sneak.git
+[submodule ".vim/pack/edd/start/vim-airline"]
+	path = .vim/pack/edd/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
