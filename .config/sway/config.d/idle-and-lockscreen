@@ -13,3 +13,6 @@ exec swayidle -w \
          resume 'swaymsg "output * dpms on"' \
          after-resume 'swaymsg "output * enable"' \
          before-sleep 'swaylock --hide-keyboard-layout -f -c 000000 -i $lock_bg'
+
+set $lock 'swaylock -f {your other options}'
+bindswitch --reload --locked lid:on exec $lock

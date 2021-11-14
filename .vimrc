@@ -89,8 +89,6 @@ autocmd FileType typescript nmap <buffer> <Leader>y : <C-u>echo tsuquyomi#hint()
 let g:tsuquyomi_completion_detail = 1
 autocmd FileType typescript setlocal completeopt+=menu,preview
 
-autocmd VimEnter,VimLeave * silent !tmux set status 
-
 set statusline=
 set statusline+=%#DiffAdd#%{(mode()=='n')?'\ \ NORMAL\ ':''}
 set statusline+=%#DiffChange#%{(mode()=='i')?'\ \ INSERT\ ':''}

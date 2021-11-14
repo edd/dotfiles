@@ -1,1 +1,4 @@
+bindsym $mod+n exec makoctl dismiss
+bindsym $mod+Shift+n exec makoctl dismiss -a
+
 exec mako
