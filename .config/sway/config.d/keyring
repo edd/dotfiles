@@ -1,0 +1,2 @@
+exec eval $(gnome-keyring-daemon --start)
+exec export SSH_AUTH_SOCK
