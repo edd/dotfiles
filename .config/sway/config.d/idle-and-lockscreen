@@ -14,5 +14,5 @@ exec swayidle -w \
          after-resume 'swaymsg "output * enable"' \
          before-sleep '~/scripts/create_lock_image.sh && swaylock -f -i /tmp/sway_lock_image.png' \
 
-set $lock 'swaylock -f {your other options}'
+set $lock '~/scripts/create_lock_image.sh && swaylock -f -i /tmp/sway_lock_image.png'
 bindswitch --reload --locked lid:on exec $lock

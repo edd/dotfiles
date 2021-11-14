@@ -37,14 +37,14 @@
     "com.github.qcasey.ulauncher-homeassistant": {
         "id": "com.github.qcasey.ulauncher-homeassistant",
         "url": "https://github.com/qcasey/ulauncher-homeassistant",
-        "updated_at": "2021-11-14T17:14:28.396654",
+        "updated_at": "2021-11-14T17:28:40.835500",
         "last_commit": "8a187aa6bdff8700cdbfbc0371b98dda33b253d5",
         "last_commit_time": "2021-05-24T23:54:58"
     },
     "com.github.cmuench.ulauncher-todoist": {
         "id": "com.github.cmuench.ulauncher-todoist",
         "url": "https://github.com/cmuench/ulauncher-todoist",
-        "updated_at": "2021-11-14T17:15:00.604485",
+        "updated_at": "2021-11-14T17:32:36.045544",
         "last_commit": "58161d693ddf62b0f453b3c887c4ffc8eec1c1ca",
         "last_commit_time": "2021-05-01T09:24:51"
     }
