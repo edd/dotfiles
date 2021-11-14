@@ -1,1 +1,30 @@
-{}
+{
+    "com.github.rdnetto.ulauncher-sway": {
+        "id": "com.github.rdnetto.ulauncher-sway",
+        "url": "https://github.com/rdnetto/ulauncher-sway",
+        "updated_at": "2021-11-14T16:43:34.286340",
+        "last_commit": "9fc141f01959fb5086518699229af97d920ca865",
+        "last_commit_time": "2021-07-22T12:29:13"
+    },
+    "com.github.brpaz.ulauncher-brotab": {
+        "id": "com.github.brpaz.ulauncher-brotab",
+        "url": "https://github.com/brpaz/ulauncher-brotab",
+        "updated_at": "2021-11-14T16:44:33.382702",
+        "last_commit": "6abaac0e9fbcf5efb52ab8e5caf141794585e102",
+        "last_commit_time": "2021-06-05T10:31:10"
+    },
+    "com.github.mikebarkmin.ulauncher-duckduckgo": {
+        "id": "com.github.mikebarkmin.ulauncher-duckduckgo",
+        "url": "https://github.com/mikebarkmin/ulauncher-duckduckgo",
+        "updated_at": "2021-11-14T16:44:52.097133",
+        "last_commit": "f2ea6a187082c600a59acc9cca6e288d96f66cc0",
+        "last_commit_time": "2021-08-07T18:51:44"
+    },
+    "com.github.mikebarkmin.ulauncher-obsidian": {
+        "id": "com.github.mikebarkmin.ulauncher-obsidian",
+        "url": "https://github.com/mikebarkmin/ulauncher-obsidian",
+        "updated_at": "2021-11-14T16:46:05.175183",
+        "last_commit": "85c869eda769eb7cd70b341451281038b5473b92",
+        "last_commit_time": "2021-07-18T21:10:03"
+    }
+}

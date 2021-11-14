@@ -1,9 +1,12 @@
 # Dracula color scheme
 
 default-timeout=5000
+icons=1
+actions=1
+padding=10
 
 background-color=#282a36
-text-color=#44475a
+text-color=#9580ff
 border-color=#282a36
 
 [urgency=low]
