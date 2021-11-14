@@ -13,6 +13,7 @@ if test -d $HOME/go
   set PATH $PATH $GOPATH/bin
 end
 
+eval (dircolors /home/edd/.dir_colors/dircolors | head -n 1 | sed 's/^LS_COLORS=/set -x LS_COLORS /;s/;$//')
 # fzf
 if test -d $HOME/.fzf/shell
   source $HOME/.fzf/shell/key-bindings.fish
