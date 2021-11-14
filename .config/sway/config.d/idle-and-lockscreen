@@ -1,4 +1,4 @@
-bindsym Alt+l exec swaylock --hide-keyboard-layout -i $lock_bg
+bindsym Alt+l exec '~/scripts/create_lock_image.sh && swaylock -f -i /tmp/sway_lock_image.png'
 
 for_window [class="^.*"] inhibit_idle fullscreen
 for_window [app_id="^.*"] inhibit_idle fullscreen
@@ -8,11 +8,11 @@ for_window [app_id="^.*"] inhibit_idle fullscreen
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 exec swayidle -w \
-         timeout 300 'swaylock --hide-keyboard-layout -f -c 000000 -i $lock_bg' \
+         timeout 300 '~/scripts/create_lock_image.sh && swaylock -f -i /tmp/sway_lock_image.png' \
          timeout 600 'swaymsg "output * dpms off"' \
          resume 'swaymsg "output * dpms on"' \
          after-resume 'swaymsg "output * enable"' \
-         before-sleep 'swaylock --hide-keyboard-layout -f -c 000000 -i $lock_bg'
+         before-sleep '~/scripts/create_lock_image.sh && swaylock -f -i /tmp/sway_lock_image.png' \
 
 set $lock 'swaylock -f {your other options}'
 bindswitch --reload --locked lid:on exec $lock
