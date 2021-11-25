@@ -7,6 +7,11 @@ for_window [class="^.*"] border pixel 0
 default_border pixel 1
 default_floating_border pixel 0
 
+gaps outer 0
+gaps inner 2
+
+smart_gaps on
+
 hide_edge_borders smart
 
 # class                 border  backgr. text    indicator child_border
