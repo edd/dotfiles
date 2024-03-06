@@ -1,9 +1,9 @@
-starship init fish | source
 set fish_greeting ""
 
 alias l "ls -lah"
-alias vi "vim"
-alias nvim "vim"
+alias vi "lvim"
+alias nvim "lvim"
+alias vim "lvim"
 
 set -gx EDITOR vim
 set -gx VISUAL vim
